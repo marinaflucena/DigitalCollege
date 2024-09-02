@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 21</title>
+    <link rel="stylesheet" href="request.css">
+</head>
+<body>
+    <header>
+        <h1>Buscador de endereço</h1>
+        <p>Busque seu endereço através do seu CEP</p>
+    </header>
+    <div class="cep">
+        <!-- <form>
+            <label for="cepNumber">CEP:</label>
+            <input id="cepNumber" type="number" placeholder="Digite seu CEP" value="result" >
+            <input type="submit" name="Enviar" id="botao" onclick="buscarEndereco()">
+        </form> -->
+
+        <div>
+            <label name="cep">CEP:</label>
+            <input name="cep" type="text" id="cep">
+            <!-- <input type="button" name="enviar" id="botao" onclick="buscarEndereco()"> -->
+            <button onclick="buscarEndereco()">Enviar</button>
+        </div>
+    </div>
+    
+    <script src="request.js"></script>
+</body>
+</html>
